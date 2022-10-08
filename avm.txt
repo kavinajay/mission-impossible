@@ -1,0 +1,19 @@
+//program to automatic vendor machine 
+#include<stdio.h>
+int main(){
+	int a,t,s,d;
+	printf("enter the amount you given :");
+	scanf("%d",&a);
+	if(a%5==0)
+	{
+		printf("enter the number of ticket you need:");
+	scanf("%d",&t);
+	}
+	if(a%5!=0){
+	printf("enter the valid amount\n");}
+	s=t*5;
+	d=a-s;
+	printf("ticket provided:%d\n",t);
+	printf("balance:%d",d);
+	return 0;
+}
